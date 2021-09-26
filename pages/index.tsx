@@ -1,13 +1,10 @@
 import { useState } from "react";
-import { ethers, providers } from "ethers";
+import { ethers } from "ethers";
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
-import Greeter from "../artifacts/contracts/Greeter.sol/Greeter.json";
 import Token from "../artifacts/contracts/Token.sol/Token.json";
-
-const greeterAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
 const tokenAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
 
 const Home: NextPage = () => {
